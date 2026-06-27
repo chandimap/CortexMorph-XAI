@@ -1,0 +1,2 @@
+# Core prototype currently uses Python standard library only.
+# Planned research extensions: torch, torch-geometric, nilearn, brainspace, matplotlib.
