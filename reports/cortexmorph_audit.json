@@ -1,0 +1,33 @@
+{
+  "baseline_case_id": "CMX-SYN-001-BASELINE",
+  "followup_case_id": "CMX-SYN-001-FOLLOWUP",
+  "data_audit": {
+    "agent": "SurfaceDataAgent",
+    "n_vertices": 144,
+    "n_faces": 242,
+    "valid_faces": true,
+    "feature_complete": true,
+    "requires_review": false
+  },
+  "morphometry": {
+    "n_vertices": 144,
+    "mean_curvature": 0.3144,
+    "max_curvature": 1.3407,
+    "mean_sulcal_depth": 0.0699,
+    "max_anomaly_strength": 0.7221,
+    "anomalous_vertex_count": 9,
+    "surface_area": 4.3218,
+    "agent": "MorphometryAgent",
+    "requires_review": true
+  },
+  "longitudinal_change": {
+    "feature_name": "curvature",
+    "mean_absolute_change": 0.0112,
+    "max_absolute_change": 0.18,
+    "high_change_vertices": 9,
+    "n_vertices": 144,
+    "requires_review": true,
+    "agent": "LongitudinalChangeAgent"
+  },
+  "limitations": "Synthetic surface data only; not clinical neuroimaging output."
+}
